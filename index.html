@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Finder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Restaurant Finder</h1>
+    <p>Find your perfect restaurant based on your preferences.</p>
+  </header>
+
+  <main>
+    <section class="search-container">
+      <form action="#" method="get" class="search-form">
+        <label for="cuisine">Cuisine:</label>
+        <select id="cuisine" name="cuisine">
+          <option value="any">Any</option>
+          <option value="Yoruba-food">Yoruba food</option>
+          <option value="Igbo-food">Igbo-food</option>
+          <option value="Hausa-food">Hausa food</option>
+          <option value="Chinese">Chinese</option>
+        </select>
+
+        <label for="price-range">Price Range:</label>
+        <select id="price-range" name="price-range">
+          <option value="any">Any</option>
+          <option value="cheap">Cheap</option>
+          <option value="moderate">Moderate</option>
+          <option value="expensive">Expensive</option>
+        </select>
+
+        <label for="diet">Dietary Preferences:</label>
+        <select id="diet" name="diet">
+          <option value="any">Any</option>
+          <option value="vegetarian">Vegetarian</option>
+          <option value="gluten-free">Gluten-Free</option>
+        </select>
+
+        <label for="rating">Minimum Rating:</label>
+        <select id="rating" name="rating">
+          <option value="any">Any</option>
+          <option value="1">1 star</option>
+          <option value="2">2 stars</option>
+          <option value="3">3 stars</option>
+          <option value="4">4 stars</option>
+          <option value="5">5 stars</option>
+        </select>
+
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <section class="results">
+      <h2>Results</h2>
+      <p>No results to show yet.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Restaurant Finder. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
